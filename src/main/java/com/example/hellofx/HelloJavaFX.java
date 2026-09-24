@@ -13,7 +13,7 @@ public class HelloJavaFX extends Application {
     @Override
     public void start(Stage stage) {
 
-        Label message = new Label("Welcome, Gabriel Chilando!");
+        Label message = new Label("Welcome,Kalaba Masheke!");
 
         Button button = new Button("Start");
         Button resetButton = new Button("Reset");
@@ -21,7 +21,7 @@ public class HelloJavaFX extends Application {
         button.setOnAction(event ->
                 message.setText("Great! You clicked the button.")
         );
-        resetButton.setOnAction(e-> message.setText("Welcome, Gabriel Chilando!"));
+        resetButton.setOnAction(e-> message.setText("Welcome, Kalaba Masheke !"));
 
         VBox layout = new VBox(20);
         layout.setAlignment(Pos.CENTER);
@@ -29,7 +29,7 @@ public class HelloJavaFX extends Application {
 
         Scene scene = new Scene(layout, 500, 300);
 
-        stage.setTitle("My First JavaFX Application- Student Number: 202505771");
+        stage.setTitle("My First JavaFX Application- Student Number: 202505267git remote ");
         stage.setScene(scene);
         stage.show();
     }
